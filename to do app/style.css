@@ -1,0 +1,114 @@
+/* body {
+    background-color: rgb(2, 14, 14);
+}
+
+.container {
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 19px;
+}
+
+button {
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+}
+
+.text ul {
+    position: relative;
+    background-color: rgb(5, 31, 31);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+}
+
+.text ul li {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    text-align: left;
+} */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(2, 14, 14);
+
+}
+
+.container {
+    /* max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    width: 360px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+
+}
+
+input {
+    /* margin-bottom: 20px; */
+    width: 235px;
+    padding: 10px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 20px
+
+}
+button { 
+    width: 60px;
+    height: 45px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+}
+button:hover{ 
+    background-color: rgb(7, 83, 41);
+    color: rgb(171, 171, 247);
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i {
+    width: 20px;
+    cursor: pointer;
+    color: rgb(10, 58, 32);
+}
